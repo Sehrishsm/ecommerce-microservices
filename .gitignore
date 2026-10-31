@@ -1,0 +1,22 @@
+target/
+**/target/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+application-local.yml
+.vscode/launch.json
+/data/
+/saga-payment-correlation-backup-20261030/
+/saga-payment-id-backup-20261030/
+
+**/data/
+
+# Temporary source and test backups
+*.backup-*
+*.bak
